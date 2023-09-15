@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Practise #2</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body style="margin: 0;">
+    <div style="display: flex;flex-direction: column;">
+        <div style="margin: 0 auto;transform: translateY(50%);">
+            <input id="calcpanel" style="font-weight: bolder;font-size: 25px;padding: 5px;color:white;background-color: #202020;text-align: right;width: 300px;" type="text" value="0">
+            <div style="padding: 5px;width: 304px;background-color: #202020;display: flex;gap:5px">
+                <button onclick="ClickNumber(this);">7</button>
+                <button onclick="ClickNumber(this);">8</button>
+                <button onclick="ClickNumber(this);">9</button>
+                <button onclick="RemoveLastchar();" style="background-color: #647299;">DEL</button>
+            </div>
+            <div style="padding: 5px;width: 304px;background-color: #202020;display: flex;gap:5px">
+                <button onclick="ClickNumber(this);">4</button>
+                <button onclick="ClickNumber(this);">5</button>
+                <button onclick="ClickNumber(this);">6</button>
+                <button onclick="ClickNumber(this);">+</button>
+            </div>
+            <div style="padding: 5px;width: 304px;background-color: #202020;display: flex;gap:5px">
+                <button onclick="ClickNumber(this);">1</button>
+                <button onclick="ClickNumber(this);">2</button>
+                <button onclick="ClickNumber(this);">3</button>
+                <button onclick="ClickNumber(this);">-</button>
+            </div>
+            <div style="padding: 5px;width: 304px;background-color: #202020;display: flex;gap:5px">
+                <button onclick="ClickNumber(this);">.</button>
+                <button onclick="ClickNumber(this);">0</button>
+                <button onclick="ClickNumber(this);">/</button>
+                <button onclick="ClickNumber(this);">*</button>
+            </div>
+            <div style="padding: 5px;width: 304px;background-color: #202020;display: flex;gap:5px">
+                <button onclick="RemoveLastchar();" style="width: 50%;background-color: #647299;">Reset</button>
+                <button onclick="CalculateAll();" style="width: 50%;background-color: red;">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="my.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+button
+{
+    background-color: #EAE3DB;
+    width: 25%;
+    height: 15%;
+    border: 1px dotted gray;
+    font-size: 25px;
+}
+
+button:hover
+{
+    background-color: #AAE3DB;
+}
